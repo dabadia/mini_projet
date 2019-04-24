@@ -20,6 +20,7 @@ namespace FourPlaces.UWP
         public MainPage()
         {
             this.InitializeComponent();
+            global::Xamarin.Forms.Forms.Init("INSERT_AUTHENTICATION_TOKEN_HERE");
 
             LoadApplication(new FourPlaces.App());
         }
